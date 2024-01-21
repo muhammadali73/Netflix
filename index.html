@@ -14,6 +14,14 @@
             color: #fff;
         }
 
+
+        .show-answer {
+            display: block;
+            color: white;
+            z-index: 999;
+        }
+
+
         body {
             background-color: #000;
         }
@@ -22,7 +30,8 @@
             height: 700px;
             width: 100%;
             display: block;
-        }        
+        }
+
         header {
             background-image: linear-gradient(to top, rgba(0, 0, 0, 0.932), rgba(0, 0, 0, 0.26)), url(https://assets.nflxext.com/ffe/siteui/vlv3/b55e47da-920d-456f-95a4-c94f564c2266/c45c51d5-3c91-45f6-9190-0f10ff8b1525/PK-en-20240115-trifectadaily-perspective_alpha_website_medium.jpg);
             background-repeat: no-repeat;
@@ -40,7 +49,7 @@
         }
 
         nav img {
-            height: 127px;
+            height: 110px;
             position: absolute;
             top: -3%;
             left: 9%;
@@ -131,7 +140,8 @@
             display: flex;
             flex-direction: row;
         }
-        .text1{
+
+        .text1 {
             height: 500px;
             width: 50%;
             justify-content: center;
@@ -139,32 +149,44 @@
             top: 30%;
             left: 12%;
         }
-        .text1 h1{
+
+        .text1 h1 {
             font-size: 45px;
             font-weight: 900;
         }
-        .text1 p{
+
+        .text1 p {
             font-size: 1.5rem;
             line-height: 1.2;
             font-weight: 400;
             font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
         }
-        .img1{
-            height: 100%;
+
+        .img1 {
+            height: 95%;
             width: 50%;
-        }
-        .img1 img{
             position: relative;
-            left: 10.5%;
-            top: 10%;
-            z-index: 999;
             display: flex;
+            align-items: center;
+            justify-content: space-around;
         }
-        .img1 video{
-            position: relative;
-            left: 20.5%;
-            bottom: 54.5%;
+
+        .img1 img {
+            z-index: 999;
+            display: block;
+            width: 70%;
+            height: 75%;
+            position: absolute;
+            top: 13.4%;
+            left: 14.7%;
         }
+
+        .img1 video {
+            display: block;
+            width: 52%;
+            height: 50%;
+        }
+
         .down {
             height: 500px;
             width: 100%;
@@ -173,14 +195,16 @@
             align-items: center;
             justify-content: center;
             margin: auto;
-        }   
-        .img2{
+        }
+
+        .img2 {
             height: 100%;
             width: 50%;
             align-items: center;
             display: flex;
         }
-        .text2{
+
+        .text2 {
             height: 100%;
             width: 50%;
             justify-content: center;
@@ -188,25 +212,29 @@
             display: flex;
             flex-direction: column;
         }
-        .text2 h1{
+
+        .text2 h1 {
             font-size: 47px;
             font-weight: 900;
             font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
             padding: 0 20px;
             margin: 8px 0;
         }
-        .text2 p{
+
+        .text2 p {
             font-size: 24px;
             font-weight: 500;
             padding: 0 20px;
         }
-        .im{
+
+        .im {
             height: 370px;
             width: 500px;
             position: relative;
             left: 23.5%;
             top: -10%;
         }
+
         .str {
             width: 260px;
             height: 100px;
@@ -251,7 +279,8 @@
             color: #000;
             z-index: 10;
         }
-        .watch{
+
+        .watch {
             height: 370px;
             display: flex;
             flex-direction: column;
@@ -259,40 +288,47 @@
             font-weight: 700;
             font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
             border-bottom: 5px solid rgb(43, 42, 42);
-            
+
         }
-        .text3{
+
+        .text3 {
             position: relative;
             left: 19%;
             width: 50%;
             height: 80%;
         }
-        .watch h1{
+
+        .watch h1 {
             font-weight: 900;
             font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
             font-size: 60px;
             line-height: 1;
             padding: 16px 0;
         }
-        .watch p{
+
+        .watch p {
             font-weight: 500;
             font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
             font-size: 30px;
         }
-        .kid{
+
+        .kid {
             height: 500px;
             width: 100%;
+            flex-direction: row;
             border-bottom: 5px solid rgb(43, 42, 42);
             display: flex;
         }
-        .img4{
+
+        .img4 {
             height: 100%;
             width: 50%;
             display: flex;
             justify-content: end;
             flex-wrap: wrap;
         }
-        .img4 img{
+
+        .img4 img {
             height: 80%;
             width: 75%;
             justify-content: end;
@@ -300,14 +336,16 @@
             top: 8%;
             right: 3%;
         }
-        .text4{
+
+        .text4 {
             display: flex;
             flex-direction: column;
             height: 100%;
             justify-content: center;
             width: 50%;
         }
-        .text4 h1{
+
+        .text4 h1 {
             position: relative;
             top: -8%;
             left: 4%;
@@ -318,7 +356,8 @@
             padding: 16px 0;
             width: 90%;
         }
-        .text4 p{
+
+        .text4 p {
             position: relative;
             top: -10%;
             left: 4%;
@@ -327,18 +366,22 @@
             font-size: 24px;
             width: 90%;
         }
-        .ques{
+
+        .ques {
             height: 1000px;
             width: 100%;
             text-align: center;
+            border-bottom: 5px solid rgb(43, 42, 42);
         }
-        .ques h1{
+
+        .ques h1 {
             font-weight: 900;
             font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
             font-size: 50px;
             margin-top: 32px;
         }
-        .box{
+
+        .box {
             text-align: start;
             display: grid;
             grid-template-columns: auto;
@@ -348,36 +391,43 @@
             width: 1200px;
             padding: 20px 0;
         }
-        .box1{
+
+        .box1 {
             height: 100px;
             background-color: #2D2D2D;
-            width: 90%; 
+            width: 90%;
             margin: auto;
             cursor: pointer;
         }
-        .box1:hover{
+
+        .box1:hover {
             background-color: #414141;
         }
-        .box1 p{
+
+        .box1 p {
             margin: 36px 20px;
             font-size: 23px;
             font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
         }
-        .span{
+
+        .span {
             float: right;
             font-size: 60px;
             position: relative;
             top: -16px;
         }
-        .email p{
+
+        .email p {
             font-size: 23px;
             font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
             margin: 32px 0;
         }
+
         .email input {
-            height: 53px;
+            height: 46px;
             width: 350px;
-            background-color: rgba(0, 0, 0, 0.562);
+            background-color: rgba(128, 128, 128, 0.192);
+            ;
             border: 1px solid rgba(128, 128, 128, 0.671);
             border-radius: 6px;
             padding: 5px 10px;
@@ -391,7 +441,7 @@
 
         .email button {
             background-color: #E50914;
-            height: 64px;
+            height: 57px;
             width: 200px;
             border-radius: 6px;
             border: none;
@@ -401,88 +451,331 @@
             top: 3px;
             cursor: pointer;
         }
+
         .hero button:hover {
             background-color: #C11119;
         }
-        @media screen and (max-width:767px) {
+
+        footer {
+            background-color: #000000;
+            color: #757575;
+            padding: 40px 0;
+        }
+
+        .footer-container {
+            display: flex;
+            justify-content: space-around;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .footer-section {
+            flex: 1;
+            max-width: 200px;
+        }
+
+        .footer-section h3 {
+            font-size: 18px;
+            margin-bottom: 10px;
+            color: grey;
+        }
+
+        .footer-section ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .footer-section li {
+            font-size: 14px;
+            margin-bottom: 8px;
+            color: grey;
+            cursor: pointer;
+            margin: 20px 0;
+        }
+
+        li strong {
+            color: gray;
+            font-size: 18px;
+        }
+
+        .footer-divider {
+            border-top: 1px solid #333;
+            margin: 20px 0;
+        }
+
+        .footer-bottom {
+            text-align: center;
+            padding-top: 20px;
+            color: #757575;
+        }
+
+        .footer-bottom p {
+            color: grey;
+            font-weight: 700;
+        }
+
+        @media screen and (max-width:450px) {
             .container {
-        background-size: auto 100%; 
-        width: 100%;
-        display: block;
-    }
-    header {
-        height: 100vh;
-        width: 100%;
-    }
-    nav img {
-        height: 80px;
-        left: 10%;
-    }
-    nav button {
-        float: right;
-        width: 70px;
-        height: 27px;
-    }
-    .hero{
-        height: 200px;
-    }
-    .hero h1 {
-        line-height: 1;
-        padding: 8px 0;
-        font-size: 30px; 
-    }
-    .hero p {
-        line-height: 1.5;
-        padding: 12px 0;
-        font-size: 14px; 
-    }
-    .hero input {
-        width: 265px;
-    }
-    .hero button {
-        width: 150px;
-        font-size: 18px;
-        height: 45px;
-    }
-    .tv-sec{
-        flex-direction: column;
-        height: 500px;
-        width: 100%;
-        align-items: center;
-    }
-    .img1{
-        display: block;
-        height: 67%;
-        width:75%;
-        position: static;
-    }
-    .text1{
-        display: block;
-        height: 40%;
-        width: 100%;
-        position: static;
-        text-align: center;
-        justify-content: center;
-    }
-    .text1 h1{
-        font-size: 35px;
-        margin:20px 0;
-    }
-    .text1 P{
-        font-size: 1.3rem;
-    }
-    .img1 img{  
-        height: 300px;
-        width: 430px;
-        position: relative;
-        top: 10px;
-    }
-    .img1 video{
-        position: relative;
-        top: -278px;
-        height: 240px;
-        width: 330px;
-    }
+                background-size: 100%;
+                width: 100%;
+                display: block;
+            }
+
+            header {
+                width: 100%;
+                height: 650px;
+            }
+
+            nav img {
+                height: 85px;
+                left: 3%;
+                top: .7%;
+            }
+
+            nav button {
+                float: right;
+                right: 11%;
+                width: 70px;
+                height: 27px;
+            }
+
+            .hero {
+                height: 200px;
+                top: 25%;
+            }
+
+            .hero h1 {
+                line-height: 1;
+                padding: 8px 0;
+                font-size: 30px;
+            }
+
+            .hero p {
+                line-height: 1.5;
+                padding: 12px 0;
+                font-size: 18px;
+            }
+
+            .hero input {
+                width: 265px;
+            }
+
+            .hero button {
+                width: 150px;
+                font-size: 18px;
+                height: 45px;
+            }
+
+            .tv-sec {
+                flex-direction: column;
+                height: 500px;
+                width: 100%;
+                align-items: center;
+            }
+
+            .img1 {
+                display: block;
+                height: 67%;
+                width: 75%;
+                position: static;
+            }
+
+            .text1 {
+                display: block;
+                height: 40%;
+                width: 100%;
+                position: static;
+                text-align: center;
+                justify-content: center;
+            }
+
+            .text1 h1 {
+                font-size: 35px;
+                margin: 32px 0;
+            }
+
+            .text1 P {
+                font-size: 1.3rem;
+            }
+
+            .img1 img {
+                height: 280px;
+                width: 390px;
+                position: relative;
+                top: 5px;
+                left: -40px;
+            }
+
+            .img1 video {
+                position: relative;
+                top: -258px;
+                left: 10.5px;
+                height: 240px;
+                width: 300px;
+            }
+
+            .down {
+                flex-direction: column;
+                height: 500px;
+                width: 100%;
+                align-items: center;
+                position: static;
+            }
+
+            .text2 {
+                height: 50%;
+                width: 100%;
+                display: block;
+            }
+
+            .text2 {
+                margin: 20px 0;
+            }
+
+            .img2 {
+                height: 50%;
+                width: 100%;
+                display: block;
+                position: static;
+            }
+
+            .im {
+                height: 280px;
+                width: 330px;
+                top: 200px;
+                left: 40px;
+            }
+
+            .str {
+                height: 70px;
+                width: 230px;
+                left: 85px;
+                top: 100px;
+            }
+
+            .str h4 {
+                top: 15px;
+            }
+
+            .str p {
+                position: relative;
+                left: -105px;
+                top: 30px;
+            }
+
+            .video {
+                height: 40px;
+                top: 18px;
+                left: -75px;
+            }
+
+            .text2 {
+                top: -240px;
+                text-align: center;
+            }
+
+            .text2 h1 {
+                font-size: 35px;
+
+            }
+
+            .text2 p {
+                font-size: 20px;
+            }
+
+            .watch {
+                height: 250px;
+                width: 100%;
+            }
+
+            .text3 {
+                text-align: start;
+                margin: 12px -32px;
+                height: 100%;
+                width: 90%;
+            }
+
+            .text3 h1 {
+                font-size: 50px;
+            }
+
+            .text3 p {
+                font-size: 20px;
+            }
+
+            .kid {
+                flex-direction: column;
+                height: 500px;
+                width: 100%;
+                display: flex;
+                position: static;
+            }
+
+            .img4 {
+                display: flex;
+                position: static;
+                height: 50%;
+                width: 100%;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .img4 img {
+                top: -20px;
+                left: 10px;
+            }
+
+            .text4 {
+                display: block;
+                position: static;
+                height: 50%;
+                width: 100%;
+                text-align: center;
+            }
+
+            .text4 h1 {
+                font-size: 35px;
+
+            }
+
+            .text4 p {
+                font-size: 20px;
+
+            }
+
+            .ques h1 {
+                font-size: 35px;
+            }
+
+            .box {
+                width: 100%;
+            }
+
+            .box1 {
+                height: 80px;
+            }
+
+            .box1 p {
+                font-size: 20px;
+            }
+
+            .span {
+                font-size: 40px;
+
+            }
+
+            .email input {
+                margin: 20px 0;
+            }
+
+            .footer-section {
+                padding: 0 20px;
+            }
+
+            .footer-section h3 {
+                font-size: 15px;
+            }
         }
     </style>
 </head>
@@ -497,71 +790,136 @@
             <div class="hero">
                 <h1>Unlimited Movies, TV Shows, and More</h1>
                 <p>Watch anywhere. Cancel anytime. <br>
-                Ready to watch? Enter your email to create or restart your membership.</p>
+                    Ready to watch? Enter your email to create or restart your membership.</p>
                 <input type="search" placeholder="Email address" required>
                 <button>Get Started &nbsp;<span>></span></button>
             </div>
         </header>
         <div class="tv-sec">
             <div class="text1">
-            <h1>Enjoy on your TV</h1>
-            <p>Watch on Smart TVs, Playstation, Xbox,<br>Chromecast, Apple TV, Blu-ray players, and<br>more.</p>
-        </div>
-        <div class="img1">
-            <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" alt="Error"
-                height="370px" width="510px">
-            <video src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v"
-                autoplay loop height="270px" width="373px"></video>
+                <h1>Enjoy on your TV</h1>
+                <p>Watch on Smart TVs, Playstation, Xbox,<br>Chromecast, Apple TV, Blu-ray players, and<br>more.</p>
+            </div>
+            <div class="img1">
+                <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" alt="Error"
+                    height="370px" width="510px">
+                <video src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v"
+                    autoplay loop height="270px" width="373px"></video>
             </div>
         </div>
         <div class="down">
             <div class="img2">
-            <img class="im" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg
+                <img class="im" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg
             " alt="Error">
-            <div class="str">
-                <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/boxshot.png
+                <div class="str">
+                    <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/boxshot.png
                 " alt="Error">
-                <h4>Stranger&nbsp;Things</h4>
-                <p>Downloading...</p>
-                <div class="video">video</div>
-            </div>
+                    <h4>Stranger&nbsp;Things</h4>
+                    <p>Downloading...</p>
+                    <div class="video">video</div>
+                </div>
             </div>
             <div class="text2">
-            <h1>Download your shows<br> to watch offline</h1>
-            <p>Save your favorites easily and always have <br> something to watch.</p>
-        </div>
+                <h1>Download your shows<br> to watch offline</h1>
+                <p>Save your favorites easily and always have <br> something to watch.</p>
+            </div>
         </div>
         <div class="watch">
             <div class="text3">
-            <h1>Watch <br> everywhere</h1>
-            <p>Stream unlimited movies and TV <br>shows on your phone, tablet,<br> laptop, and TV.</p>
+                <h1>Watch <br> everywhere</h1>
+                <p>Stream unlimited movies and TV <br>shows on your phone, tablet,<br> laptop, and TV.</p>
             </div>
         </div>
         <div class="kid">
             <div class="img4">
-                <img src="https://occ-0-3652-64.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABejKYujIIDQciqmGJJ8BtXkYKKTi5jiqexltvN1YmvXYIfX8B9CYwooUSIzOKneblRFthZAFsYLMgKMyNfeHwk16DmEkpIIcb6A3.png?r=f55" alt="Error">
+                <img src="https://occ-0-3652-64.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABejKYujIIDQciqmGJJ8BtXkYKKTi5jiqexltvN1YmvXYIfX8B9CYwooUSIzOKneblRFthZAFsYLMgKMyNfeHwk16DmEkpIIcb6A3.png?r=f55"
+                    alt="Error">
             </div>
             <div class="text4">
                 <h1>Create profiles for <br>kids</h1>
-                <p>Send kids on adventures with their favorite <br>characters in a space made just for them—free <br>with your membership.</p>
-                </div>
+                <p>Send kids on adventures with their favorite <br>characters in a space made just for them free
+                    <br>with your membership.
+                </p>
+            </div>
         </div>
         <div class="ques">
             <h1>Frequently Asked Questions</h1>
             <div class="box">
-                <div class="box1 boxa"><p>What is Netflix?<span class="span">+</span></p></div>
-                <div class="box1 boxb"><p>How much does Netflix cost?<span class="span">+</span></p></div>
-                <div class="box1 boxc"><p>Where can I watch?<span class="span">+</span></p></div>
-                <div class="box1 bocd"><p>How do I cancel?<span class="span">+</span></p></div>
-                <div class="box1 boxe"><p>What can I watch on Netflix?<span class="span">+</span></p></div>
-                <div class="box1 boxf"><p>Is Netflix good for kids?<span class="span">+</span></p></div>
+                <div class="box1 boxa">
+                    <p>What is Netflix?<span class="span">+</span></p>
+                </div>
+                <div class="box1 boxb">
+                    <p>How much does Netflix cost?<span class="span">+</span></p>
+                </div>
+                <div class="box1 boxc">
+                    <p>Where can I watch?<span class="span">+</span></p>
+                </div>
+                <div class="box1 bocd">
+                    <p>How do I cancel?<span class="span">+</span></p>
+                </div>
+                <div class="box1 boxe">
+                    <p>What can I watch on Netflix?<span class="span">+</span></p>
+                </div>
+                <div class="box1 boxf">
+                    <p>Is Netflix good for kids?<span class="span">+</span></p>
+                </div>
             </div>
-                <div class="email">
-                    <p>Ready to watch? Enter your email to create or restart your membership.</p>
-                    <input type="email" placeholder="Email address">
-                    <button>Get Started <span> &nbsp;></span></button>
+            <div class="email">
+                <p>Ready to watch? Enter your email to create or restart your membership.</p>
+                <input type="email" placeholder="Email address">
+                <button>Get Started <span> &nbsp;></span></button>
             </div>
         </div>
+        <footer>
+            <div class="footer-container">
+                <div class="footer-section">
+                    <h3>Questions? Contact us.</h3>
+                    <ul>
+                        <li>FAQ</li>
+                        <li>Help Center</li>
+                        <li>Account</li>
+                        <li>Media Center</li>
+                        <li><strong>Netflix Pakistan</strong></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Netflix Originals</h3>
+                    <ul>
+                        <li>Stranger Things</li>
+                        <li>Narcos</li>
+                        <li>House of Cards</li>
+                        <li>Black Mirror</li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>LinkedIn</li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Netflix Service Codes</h3>
+                    <ul>
+                        <li>Redeem Gift Cards</li>
+                        <li>Buy Gift Cards</li>
+                        <li>Privacy</li>
+                        <li>Terms of Use</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-divider"></div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 Netflix, Inc.</p>
+            </div>
+        </footer>
     </div>
 </body>
 
